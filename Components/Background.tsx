@@ -25,13 +25,13 @@ export const Background = ({
                   Software Developer - Web
                 </h1>
               </Reveal>
-              <h2 className="text-lg hidden sm:block">March 2024 - Current</h2>
+              <h2 className="text-lg hidden sm:block">February 2023 - Current</h2>
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
                 <h3 className="font-bold text-lg"> Custom Website Design Projects</h3>
               </Reveal>
-              <h2 className="text-lg sm:hidden">March 2024 - Current</h2>
+              <h2 className="text-lg sm:hidden">February 2023 - Current</h2>
               <h3 className="font-normal text-lg"> Gurnee, IL</h3>
             </div>
             <Reveal>
@@ -68,12 +68,12 @@ export const Background = ({
                 </h1>
               </Reveal>
               <h2 className="text-lg hidden sm:block">
-                November 2024 - March 2025
+                September 2024 - Current
               </h2>
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
-                <h3 className="font-bold text-lg">TripleTen</h3>
+                <h3 className="font-bold text-lg">TripleTen Senior Student</h3>
               </Reveal>
               <h2 className="text-lg sm:hidden">September 2024 - Current</h2>
               <h3 className="font-normal text-lg">Remote</h3>
@@ -117,25 +117,23 @@ export const Background = ({
                 </h1>
               </Reveal>
               <h2 className="text-lg hidden sm:block">
-                January 2024 - March 2024
+                July17 to September 17, 2025
               </h2>
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
-                <h3 className="font-bold text-lg"> SlopGoblins</h3>
+                <h3 className="font-bold text-lg"> Partner Pipeline | Cohort#3</h3>
               </Reveal>
-              <h2 className="text-lg sm:hidden">January 2024 - March 2024</h2>
+              <h2 className="text-lg sm:hidden">July17, 2025 to September 17, 2025</h2>
               <h3 className="font-normal text-lg">Remote</h3>
             </div>
             <Reveal>
               <p className="mt-3">
-                Collaborate with a team of six engineers, leveraging Agile
-                methodologies and CI/CD pipelines to drive efficient development
-                and seamless project delivery. Design and implement dynamic
-                front-end components using React, TypeScript, and Tailwind CSS
-                to elevate user experiences. Develop optimized GraphQL queries
-                and mutations to streamline database interactions, enhancing
-                application performance and functionality.
+                Collaborate with a team of six engineers plus our mentor, leveraging Agile
+                methodologies with Jira ticketing software and CI/CD pipelines to 
+                drive efficient development and seamless project delivery. 
+                to implement secure authentication, invitation logic, and project management features to create a functional and scalable system. These features enable users to log in safely, collaborate through project invitations, and manage projects efficiently with real data. Through teamwork and technical execution, we delivered the foundation of a platform ready to support real-world client needs.
+
               </p>
             </Reveal>
             <div className="flex flex-wrap gap-2 mt-3">
