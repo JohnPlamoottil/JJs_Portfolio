@@ -17,4 +17,7 @@ This is my 2025 portfolio where you can dive in and learn a little more about me
 <img align="center" height="500" alt="Image of project" src="./public/Image1.png">
 <img align="center" height="500" alt="Image of project" src="./public/Image2.png">
 <img align="center" height="500" alt="Image of project" src="./public/Image3.png">
+<img align="center" height="500" alt="Image of project" src="./public/Image4.png">
+<img align="center" height="500" alt="Image of project" src="./public/Image5.png">
+<img align="center" height="500" alt="Image of project" src="./public/Image6.png">
 </div>
