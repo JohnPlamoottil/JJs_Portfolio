@@ -14,10 +14,10 @@ type Testimonial = {
 };
 
 type TestimonialCardProps = {
-  items: Testimonial[];
+  item: Testimonial;
 };
 
-export const TestimonialCard: React.FC<TestimonialCardProps> = ({ items }) => {
+export const TestimonialCard: React.FC<TestimonialCardProps> = ({ item }) => {
    const [showMore, setShowMore] = useState(false);
   
     const handleReadMore = () => {
@@ -29,7 +29,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ items }) => {
     };
   return (
     <ul className="flex flex-wrap gap-5 items-center justify-center">
-      {items.map((item) => (
+      
         <li
           className="bg-black-200 max-w-[415px] relative rounded-2xl border border-b-0 flex-shrink-0 border-white/[0.1] px-8 py-6 md:w-[450px] shadow-[0_0_10px_rgba(255,255,255,0.3)]"
           key={item.name}
@@ -86,7 +86,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ items }) => {
             </div>
           </blockquote>
         </li>
-      ))}
+     
     </ul>
   );
 };
