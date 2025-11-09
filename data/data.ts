@@ -7,10 +7,17 @@ import RealEstateForm from "../public/images/RealEstateForm.png"
 import USA from "../public/images/USA.png";
 import WhatToWear from "../public/images/WhatToWear.png";
 import FinalProject from "../public/images/FinalProject.png"
+import LoversSlowJam from "../public/images/LoversSlowJam.png"
+import GeoFit from "../public/images/GeoFit.png"
+import SightSeeUSA from "../public/images/SightSeeUSA.png"
+import frontend from "../public/images/frontend.png"
+import backend from "../public/images/backend.png"
 
 export const navItems = [
   { name: "About", link: "#about", scrollPath: "about", offset: 60 },
   { name: "Projects", link: "#projects", scrollPath: "projects" },
+  { name: "Code Jams", link: "#code jams", scrollPath: "code jams" },
+  { name: "Externship", link: "#externship", scrollPath: "externship" },
   {
     name: "Testimonials",
     link: "#mobileTest",
@@ -144,6 +151,70 @@ export const FinalData = {
   stack2: "React/Express/Node.JS",
   stack3: "MongoDB/GoogleCloud",
 };
+
+export const FebCodeJamData = {
+  src: LoversSlowJam.src,
+  alt: "Image of Feb Code Jam",
+  title: "Feb2025 Lovers Slow Jamz",
+  description:
+    "A web application designed to help users set up the perfect date night with romantic playlists, restaurant recommendations, and places to visit.",
+  Github: "https://github.com/JohnPlamoottil/Lover-s-Slow-Jamz",
+  site: "https://jmik-thang.github.io/Lover-s-Slow-Jamz/",
+  stack1: "HTML | CSS | JavaScript",
+  stack2: "Webpack | Babel",
+  stack3: "PostCSS | Webpack DevServer",
+};
+
+export const MayCodeJamData = {
+  src: GeoFit.src,
+  alt: "Image of May Code Jam",
+  title: "May2025: Geo fit",
+  description:
+    "LOCAL HOST ONLY. This is a GeoFit app. You can make your own by typing the following into your command line and following the prompts. The page you're looking at is purely static HTML, with no client-side interactivity needed. Because of that, we don't need to load any JavaScript.Try viewing the page's source, or opening the devtools network panel and reloading.",
+  Github: "https://github.com/JohnPlamoottil/GeoFit",
+  site: "http://127.0.0.1:5501",
+  stack1: "Pure Static HTML | CSS",
+  stack2: "FrontEnd | JavaScript",
+  stack3: "Google API",
+};
+
+export const JulyCodeJamData = {
+  src: SightSeeUSA.src,
+  alt: "Image of July Code Jam",
+  title: "July2025: SightSee USA",
+  description:
+    "SightSee USA is a full-stack travel route optimization application built with React (frontend using Vite), Python (backend with Streamlit, Pandas, and Plotly for data science), and JavaScript. The app uses a nearest neighbor algorithm to calculate optimal travel routes between tourist destinations across the USA, processing geographic data with libraries like geolib and geopy for distance calculations and displaying results on interactive maps using MapLibre GL. The project combines data science techniques (data preprocessing, normalization, and filtering in Python) with modern frontend development (React hooks, context API, and component-based architecture) to create an interactive vacation planning tool.",
+  Github: "https://github.com/JohnPlamoottil/sightsee-usa",
+  site: "code-jam-kohl.vercel.app",
+  stack1: "React+Vite | Full Stack",
+  stack2: "Python | Streamlit | Pandas | Plotly",
+  stack3: "JavaScript | GeoLib | Geopy",
+};
+
+export const FrontEndData = {
+  src: frontend.src,
+  alt: "Image of UI with signin page",
+  title: "Pipelines: Frontend",
+  description:
+    "LOCAL HOST ONLY. The frontend is built with React 18 + TypeScript + Vite, using Apollo Client for GraphQL communication with the KeystoneJS backend and React Router for navigation. Key UI/UX libraries include Radix UI (headless accessible components), Tailwind CSS v4 (styling), shadcn/ui (component system), React Hook Form + Zod (form validation), Zustand (state management), and Sonner (toast notifications). The application enables CRUD operations on projects/milestones, user authentication (OAuth + traditional login), activity logging visualization, invitation management, and role-based access control through a responsive dashboard interface with Storybook for component development.",
+  Github: "https://github.com/JohnPlamoottil/partner-pipeline-frontend",
+  stack1: "TypeScript| Full Stack",
+  stack2: "MDX | Tailwind CSS",
+  stack3: "Storybook JS | React Vite",
+};
+
+export const BackEndData = {
+  src: backend.src,
+  alt: "Image of Keystone",
+  title: "Pipelines: Backend",
+  description:
+    "LOCAL HOST ONLY. The backend essentially provides a full-featured API for a project management/collaboration platform with user authentication, project tracking, milestone management, and team collaboration features.",
+  Github: "https://github.com/JohnPlamoottil/partner-pipeline-backend",
+  stack1: "TypeScript | Full Stack | Apollo GraphQL",
+  stack2: "keystone.ts | GraphQL | Next.js",
+  stack3: "JavaScript | PostgreSQL | Shell",
+};
+
 
 export const testimonials = [
   {
