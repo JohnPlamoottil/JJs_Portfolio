@@ -1,6 +1,6 @@
 import { Button } from "./ui/Button";
 import { ProjectCard } from "./ui/ProjectCard";
-import { SixtiethBirthdayData, AroundTheUsData, TrackerData, IntroProjectData } from "@/data/data";
+import { SixtiethBirthdayData, AroundTheUsData, TrackerData, IntroProjectData, CoffeeShopData, RealEstateWebsiteData, LibraryData } from "@/data/data";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export const Projects = () => {
@@ -15,7 +15,10 @@ export const Projects = () => {
         </div>
         <div className="flex gap-8 md:gap-10 flex-wrap justify-center">
           <ProjectCard {...IntroProjectData} />
+          <ProjectCard {...LibraryData} />
           <ProjectCard {...SixtiethBirthdayData} />
+          <ProjectCard {...CoffeeShopData} />
+          <ProjectCard {...RealEstateWebsiteData} />
           <ProjectCard {...AroundTheUsData} />
           <ProjectCard {...TrackerData} />
         </div>

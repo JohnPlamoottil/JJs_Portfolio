@@ -1,5 +1,8 @@
 import IntroProject from "../public/images/IntroProject.png"
+import Library from "../public/images/Library.png"
 import Birthday from "../public/images/birthday.jpeg";
+import CoffeeShop from "../public/images/CoffeeShop.png"
+import RealEstateSite from "../public/images/RealEstateSite.png"
 import USA from "../public/images/USA.png";
 import Flight from "../public/images/Flight.png";
 
@@ -25,20 +28,32 @@ export const navItems = [
 
 export const IntroProjectData = {
   src: IntroProject.src,
-  alt: "Sprint 0 Intro Project",
-  title: "Onboarding Project",
+  alt: "Image of Sprint 0 Intro Project",
+  title: "Sprint 0: Onboarding Project",
   description:
-    "This project is a personal introduction website created to showcase information about the author, including family, biography, and career highlights. Built using HTML and CSS, it features a visually engaging layout with custom images and responsive design elements. The project demonstrates fundamental web development skills and serves as a creative portfolio piece.",
+    "This project is a personal introduction website created to showcase information about the author, including family, biography, and career highlights. Built using HTML and CSS, it features a visually engaging layout with custom images and responsive design elements. The project demonstrates fundamental web development skills and serves as a creative portfolio piece. Only Local Host; not deployed online",
   Github: "https://github.com/JohnPlamoottil/Introduction-Project-Feb2023",
   stack1: "HTML",
   stack2: "CSS",
   stack3: "TypeScript",
 };
 
+export const LibraryData = {
+  src: Library.src,
+  alt: "Image of Sprint 1 Library",
+  title: "Sprint 1: LibraryProject",
+  description:
+    "This project is The Practicum Library webpage which is the first project in the Software Engineer program at Practicum. It was created using HTML and CSS, based on a design brief. Only Local Host; not deployed online.",
+  Github: "https://github.com/JohnPlamoottil/se_project_library",
+  stack1: "HTML5/CSS",
+  stack2: "Z-Index",
+  stack3: "Flexbox/Positioning",
+};
+
 export const SixtiethBirthdayData = {
   src: Birthday.src,
-  alt: "Image of Johnnys 60th Birthday",
-  title: "Sixtieth Birthday",
+  alt: "Image of Sprint 1 Johnnys 60th Birthday",
+  title: "Sprint 1: 60th Birthday Project",
   description:
     "This project is a celebratory, interactive website for Johnny's 60th Birthday Bash, featuring photo and video galleries, accordions, confetti effects, background music, and a modal YouTube player. It was built using HTML, CSS, and JavaScript, with Git and GitHub for version control and Git LFS for handling large media files. The site is deployed using GitHub Pages, allowing easy public access and updates directly from the main branch.",
   Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
@@ -48,10 +63,34 @@ export const SixtiethBirthdayData = {
   stack3: "Javascript",
 };
 
+export const CoffeeShopData = {
+  src: CoffeeShop.src,
+  alt: "Image of Sprint 2 Project",
+  title: "Sprint 2: Coffee Shop Project",
+  description:
+    "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.  Only Local Host; not deployed online.",
+  Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
+  stack1: "Semantic HTML5",
+  stack2: "CSS",
+  stack3: "Flexbox",
+};
+
+export const RealEstateWebsiteData = {
+  src: RealEstateSite.src,
+  alt: "Image of Kannas Realty",
+  title: "JJs Own Realty Site",
+  description:
+    "As part of the second project. I created my own Real Estate Site showcasing up to date properties on a weekly basis. Methods I used were gridboxs, flexbox, and like/trash icons.  Only Local Host; it is not deployed online.",
+  Github: "https://github.com/JohnPlamoottil/kanna-plamoottil-realty",
+  stack1: "Positioning",
+  stack2: "BEM",
+  stack3: "Custom Form",
+};
+
 export const AroundTheUsData = {
   src: USA.src,
   alt: "Image of Around The USA",
-  title: "Around The USA",
+  title: "Sprint3-9: Around US Project",
   description:
     "Around the MDW is a project that was crafted purely with JavaScript. With a high focus in OOP the user is greeted with a stunning aesthetic website. The website is a social media page that allows the user to make it their own! From editing the profile, adding a new profile photo, and adding or deleting photos in their feed.",
   Github: "https://github.com/JohnPlamoottil/se_project_aroundtheus",
