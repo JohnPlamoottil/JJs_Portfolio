@@ -1,7 +1,7 @@
 import { Button } from "./ui/Button";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 import { FaLocationArrow } from "react-icons/fa6";
-import Portrait from "../public/images/Portrait.jpeg";
+// import Portrait from "../public/images/Portrait.jpeg";
 import { Link } from "react-scroll";
 
 export const Hero = () => {
