@@ -41,7 +41,7 @@ export const About = () => {
                 aligned with best practices and business goals
                 <br />
                 <br />
-                From a young age, I aspired to contribute to the healthcare field. I endured three intense semesters of physical therapy school, followed by four semesters of nursing studies at Herzing University and a full year at Resurrection University or recently known as Oak Point Univ. However, global circumstances shifted my mindset to a remote, virtual environment due to the COVID-19 pandemic which redirected my path back to my foundational interest in web development. This transition led me to earn AWS Cloud Practitioner and Solutions Architect Associate certifications through the PerScholas AWS Re/Start program. Subsequently, I enrolled in the Practicum/TripleTen software engineering program in Jan2023 and completed the software engineering program in October2025. 
+                From a young age, I had always aspired to contribute to the healthcare field. After completing rigorous studies in physical therapy and nursing school, the COVID-19 pandemic shifted my focus back to my original passion for web development. This transition led me to earn an AWS Cloud Practitioner and Solutions Architect Associate certifications through the PerScholas AWS Re/Start program. Subsequently, I enrolled in Practicum/TripleTen software engineering program in Jan2023 and completed the software engineering program in October2025. 
                 <br/> 
                 <br/> I am an eager and creative professional who enjoys tackling new challenges, building, and designing web projects for a broad audience to experience and enjoy.
                 <br />
