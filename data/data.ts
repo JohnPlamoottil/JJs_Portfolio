@@ -1,4 +1,4 @@
-import Birthday from "../public/images/birthday.png";
+import Birthday from "../public/images/birthday.jpg";
 import USA from "../public/images/USA.png";
 import Flight from "../public/images/Flight.png";
 
