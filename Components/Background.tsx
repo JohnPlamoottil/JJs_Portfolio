@@ -25,14 +25,14 @@ export const Background = ({
                   Software Developer - Web
                 </h1>
               </Reveal>
-              <h2 className="text-lg hidden sm:block">February 2023 - Current</h2>
+              <h2 className="text-lg hidden sm:block">September 2019 - Current</h2>
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
                 <h3 className="font-bold text-lg"> Custom Website Design Projects</h3>
               </Reveal>
-              <h2 className="text-lg sm:hidden">February 2023 - Current</h2>
-              <h3 className="font-normal text-lg"> Gurnee, IL</h3>
+              <h2 className="text-lg sm:hidden">September 2019 - Current</h2>
+              <h3 className="font-normal text-lg"> Remote </h3>
             </div>
             <Reveal>
               <p className="mt-3">
@@ -68,14 +68,14 @@ export const Background = ({
                 </h1>
               </Reveal>
               <h2 className="text-lg hidden sm:block">
-                September 2024 - Current
+                September 2024 - October 2025
               </h2>
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
                 <h3 className="font-bold text-lg">TripleTen Senior Student</h3>
               </Reveal>
-              <h2 className="text-lg sm:hidden">September 2024 - Current</h2>
+              <h2 className="text-lg sm:hidden">September 2024 - October 2025</h2>
               <h3 className="font-normal text-lg">Remote</h3>
             </div>
             <Reveal>
@@ -104,6 +104,9 @@ export const Background = ({
               <div className="bg-black-200 rounded-xl p-3">
                 <p className="text-sm">MongoDB</p>
               </div>
+              <div className="bg-black-200 rounded-xl p-3">
+                <p className="text-sm">Postman</p>
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +125,7 @@ export const Background = ({
             </div>
             <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
               <Reveal>
-                <h3 className="font-bold text-lg"> Partner Pipeline | Cohort#3</h3>
+                <h3 className="font-bold text-lg"> Partner Internal Pipeline | Cohort#3</h3>
               </Reveal>
               <h2 className="text-lg sm:hidden">July17, 2025 to September 17, 2025</h2>
               <h3 className="font-normal text-lg">Remote</h3>
@@ -137,6 +140,9 @@ export const Background = ({
               </p>
             </Reveal>
             <div className="flex flex-wrap gap-2 mt-3">
+              <div className="bg-black-200 rounded-xl p-3">
+                <p className="text-sm">JIRA</p>
+              </div>
               <div className="bg-black-200 rounded-xl p-3">
                 <p className="text-sm">TypeScript</p>
               </div>
