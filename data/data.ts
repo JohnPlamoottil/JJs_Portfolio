@@ -22,10 +22,10 @@ export const navItems = [
   { name: "Contact", link: "#contact", scrollPath: "contact", offset: -10 },
 ];
 
-export const SixtiethBirthday = {
+export const SixtiethBirthdayData = {
   src: Birthday.src,
-  alt: "Johnnys 60th Birthday",
-  title: "60th Birthday",
+  alt: "Image of Johnnys 60th Birthday",
+  title: "Sixtieth Birthday",
   description:
     "This project is a celebratory, interactive website for Johnny's 60th Birthday Bash, featuring photo and video galleries, accordions, confetti effects, background music, and a modal YouTube player. It was built using HTML, CSS, and JavaScript, with Git and GitHub for version control and Git LFS for handling large media files. The site is deployed using GitHub Pages, allowing easy public access and updates directly from the main branch.",
   Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
