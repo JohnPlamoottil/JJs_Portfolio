@@ -32,7 +32,7 @@ export const About = () => {
             <Reveal>
               <p className="text-base sm:text-lg">
                 Hello, Im JJ (Kanna). A detail-oriented and adaptable Software
-                Engineer with three years of hands-on experience (2023-2025). Adept at
+                Engineer with 6+ years of hands-on experience (2019-2025). Adept at
                 collaborating cross-functionally to deliver user-centric
                 solutions, with proven success in improving software performance
                 and contributing to strategic business objectives. Im a strong
@@ -41,12 +41,11 @@ export const About = () => {
                 aligned with best practices and business goals
                 <br />
                 <br />
-                Growing up I always had aspirations of becoming part of the healthcare team. I
-                completed 2 years of physical therapy school, an year of nursing at Herzing and another year of nursing at Resurrection OakPoint University but life has its own way and with COVID bringing the world into a remote virtual environment, it brought me to my roots of web development. 
-                Hence bringing me to become an AWS Cloud Practitioner and Solutions Architect Associate under the guidance from PerScholas AWS Re/Start program which led to my enrollment into Practicum in Jan2023 later becoming TripleTen in 2024 for their 
-                software engineering program. I am eager, creative and loves a new task to build and design new projects on the web for a large audience to view and enjoy.
+                From a young age, I aspired to contribute to the healthcare field. I endured three intense semesters of physical therapy school, followed by four semesters of nursing studies at Herzing University and a full year at Resurrection University or recently known as Oak Point Univ. However, global circumstances shifted my mindset to a remote, virtual environment due to the COVID-19 pandemic which redirected my path back to my foundational interest in web development. This transition led me to earn AWS Cloud Practitioner and Solutions Architect Associate certifications through the PerScholas AWS Re/Start program. Subsequently, I enrolled in the Practicum/TripleTen software engineering program in Jan2023 and completed the software engineering program in October2025. 
+                <br/> 
+                <br/> I am an eager and creative professional who enjoys tackling new challenges, building, and designing web projects for a broad audience to experience and enjoy.
                 <br />
-                <br />I love meeting new people and making new connections. I&apos;d
+                <br />I love meeting new people and making new connections. <br/> I&apos;d
                 love to know more about you. Lets connect! 🔗
               </p>
             </Reveal>
