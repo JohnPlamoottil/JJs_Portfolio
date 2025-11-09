@@ -43,7 +43,13 @@ export const ProjectCard = ({
     >
       <div className="p-4 pb-5 bg-[#2b2b2b] rounded-2xl flex flex-col gap-4 shadow-[0_0_10px_rgba(255,255,255,0.3)]">
         <Reveal>
-          <img alt={alt} src={src} className="rounded-2xl w-full" />
+          <div className="w-full aspect-[16/9] bg-black rounded-2xl overflow-hidden flex items-center justify-center">
+            <img 
+              alt={alt} 
+              src={src} 
+              className="w-full h-full object-cover rounded-2xl" 
+            />
+          </div>
         </Reveal>
         <div className="font-semibold flex items-center">
           <h2 className="whitespace-nowrap text-xl">{title}</h2>
