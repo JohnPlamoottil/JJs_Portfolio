@@ -1,6 +1,6 @@
 import { Button } from "./ui/Button";
 import { ProjectCard } from "./ui/ProjectCard";
-import { SixtiethBirthdayData, AroundTheUsData, TrackerData, IntroProjectData, CoffeeShopData, RealEstateWebsiteData, LibraryData } from "@/data/data";
+import { SixtiethBirthdayData, AroundTheUsData, WTWRData, IntroProjectData, CoffeeShopData, RealEstateWebsiteData, LibraryData, RealtyFormData, FinalData} from "@/data/data";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export const Projects = () => {
@@ -19,8 +19,10 @@ export const Projects = () => {
           <ProjectCard {...SixtiethBirthdayData} />
           <ProjectCard {...CoffeeShopData} />
           <ProjectCard {...RealEstateWebsiteData} />
+          <ProjectCard {...RealtyFormData} />
           <ProjectCard {...AroundTheUsData} />
-          <ProjectCard {...TrackerData} />
+          <ProjectCard {...WTWRData} />
+          <ProjectCard {...FinalData} />
         </div>
         <a
           href="https://github.com/JohnPlamoottil"

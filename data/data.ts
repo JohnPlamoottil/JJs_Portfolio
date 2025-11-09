@@ -3,8 +3,10 @@ import Library from "../public/images/Library.png"
 import Birthday from "../public/images/birthday.jpeg";
 import CoffeeShop from "../public/images/CoffeeShop.png"
 import RealEstateSite from "../public/images/RealEstateSite.png"
+import RealEstateForm from "../public/images/RealEstateForm.png"
 import USA from "../public/images/USA.png";
-import Flight from "../public/images/Flight.png";
+import WhatToWear from "../public/images/WhatToWear.png";
+import FinalProject from "../public/images/FinalProject.png"
 
 export const navItems = [
   { name: "About", link: "#about", scrollPath: "about", offset: 60 },
@@ -31,22 +33,24 @@ export const IntroProjectData = {
   alt: "Image of Sprint 0 Intro Project",
   title: "Sprint 0: Onboarding Project",
   description:
-    "This project is a personal introduction website created to showcase information about the author, including family, biography, and career highlights. Built using HTML and CSS, it features a visually engaging layout with custom images and responsive design elements. The project demonstrates fundamental web development skills and serves as a creative portfolio piece. Only Local Host; not deployed online",
+    "This frontend project is a personal introduction website created to showcase information about the author, including family, biography, and career highlights. Built using HTML and CSS, it features a visually engaging layout with custom images and responsive design elements. The project demonstrates fundamental web development skills and serves as a creative portfolio piece.",
   Github: "https://github.com/JohnPlamoottil/Introduction-Project-Feb2023",
-  stack1: "HTML",
-  stack2: "CSS",
+  site: "https://johnplamoottil.github.io/Introduction-Project-Feb2023/",
+  stack1: "HTML/CSS",
+  stack2: "FrontEnd",
   stack3: "TypeScript",
 };
 
 export const LibraryData = {
   src: Library.src,
   alt: "Image of Sprint 1 Library",
-  title: "Sprint 1: LibraryProject",
+  title: "Sprint 1: Library Project",
   description:
-    "This project is The Practicum Library webpage which is the first project in the Software Engineer program at Practicum. It was created using HTML and CSS, based on a design brief. Only Local Host; not deployed online.",
+    "This frontend project is The Practicum Library webpage which is the first project in the Software Engineer program at Practicum. It was created using HTML and CSS, based on a design brief.",
   Github: "https://github.com/JohnPlamoottil/se_project_library",
+  site: "https://johnplamoottil.github.io/se_project_library/",
   stack1: "HTML5/CSS",
-  stack2: "Z-Index",
+  stack2: "Z-Index/FrontEnd",
   stack3: "Flexbox/Positioning",
 };
 
@@ -55,11 +59,11 @@ export const SixtiethBirthdayData = {
   alt: "Image of Sprint 1 Johnnys 60th Birthday",
   title: "Sprint 1: 60th Birthday Project",
   description:
-    "This project is a celebratory, interactive website for Johnny's 60th Birthday Bash, featuring photo and video galleries, accordions, confetti effects, background music, and a modal YouTube player. It was built using HTML, CSS, and JavaScript, with Git and GitHub for version control and Git LFS for handling large media files. The site is deployed using GitHub Pages, allowing easy public access and updates directly from the main branch.",
+    "This frontend project is a celebratory, interactive website for Johnny's 60th Birthday Bash, featuring photo and video galleries, accordions, confetti effects, background music, and a modal YouTube player. It was built using HTML, CSS, and JavaScript, with Git and GitHub for version control and Git LFS for handling large media files. The site is deployed using GitHub Pages, allowing easy public access and updates directly from the main branch.",
   Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
   site: "https://johnplamoottil.github.io/Johnny-s-60th-Birthday-Bash/",
-  stack1: "HTML",
-  stack2: "CSS",
+  stack1: "FrontEndd",
+  stack2: "HTML/CSS",
   stack3: "Javascript",
 };
 
@@ -68,23 +72,38 @@ export const CoffeeShopData = {
   alt: "Image of Sprint 2 Project",
   title: "Sprint 2: Coffee Shop Project",
   description:
-    "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.  Only Local Host; not deployed online.",
+    "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief. It is solely frontend.",
   Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
-  stack1: "Semantic HTML5",
-  stack2: "CSS",
-  stack3: "Flexbox",
+  site: "https://johnplamoottil.github.io/se_project_coffeeshop/",
+  stack1: "HTML5/CSS",
+  stack2: "Flexbox",
+  stack3: "FrontEnd",
 };
 
 export const RealEstateWebsiteData = {
   src: RealEstateSite.src,
   alt: "Image of Kannas Realty",
-  title: "JJs Own Realty Site",
+  title: "Sprint2: Real Estate",
   description:
-    "As part of the second project. I created my own Real Estate Site showcasing up to date properties on a weekly basis. Methods I used were gridboxs, flexbox, and like/trash icons.  Only Local Host; it is not deployed online.",
+    "As part of the second project. I created my own frontend Real Estate Site showcasing up to date properties on a weekly basis. Methods I used were gridboxs, flexbox, and like/trash icons.",
   Github: "https://github.com/JohnPlamoottil/kanna-plamoottil-realty",
+  site: "https://johnplamoottil.github.io/kanna-plamoottil-realty/",
   stack1: "Positioning",
-  stack2: "BEM",
+  stack2: "BEM/FrontEnd",
   stack3: "Custom Form",
+};
+
+export const RealtyFormData = {
+  src: RealEstateForm.src,
+  alt: "Image of JJs RE Contact Form",
+  title: "Sprint2: Contact Form",
+  description:
+    "Using tools that I learned in the program, I developed a frontend contact form for my real estate business for others to use.",
+  Github: "https://github.com/JohnPlamoottil/contact-form",
+  site: "https://johnplamoottil.github.io/contact-form/",
+  stack1: "HTML/Javascript",
+  stack2: "CSS Tailwind",
+  stack3: "FormSpree/FrontEnd",
 };
 
 export const AroundTheUsData = {
@@ -92,25 +111,38 @@ export const AroundTheUsData = {
   alt: "Image of Around The USA",
   title: "Sprint3-9: Around US Project",
   description:
-    "Around the MDW is a project that was crafted purely with JavaScript. With a high focus in OOP the user is greeted with a stunning aesthetic website. The website is a social media page that allows the user to make it their own! From editing the profile, adding a new profile photo, and adding or deleting photos in their feed.",
+    "Around the USA is a frontend project that was crafted purely with JavaScript. With a high focus in OOP the user is greeted with a stunning aesthetic website. The website is a social media page that allows the user to make it their own! From editing the profile, adding a new profile photo, and adding or deleting photos in their feed.",
   Github: "https://github.com/JohnPlamoottil/se_project_aroundtheus",
   site: "https://johnplamoottil.github.io/se_project_aroundtheus/",
-  stack1: "HTML/CSS",
+  stack1: "HTML/CSS/FrontEnd",
   stack2: "JavaScript",
   stack3: "WebPack",
 };
 
-export const TrackerData = {
-  src: Flight.src,
-  alt: "Image Of Flight Tracker",
-  title: "Flight Tracker",
+export const WTWRData = {
+  src: WhatToWear.src,
+  alt: "Image of WTWR React & Express",
+  title: "Sprint10-15: WTWR Project",
   description:
-    "Worked in a team of 3 other Engineers to create Flight Tracker. A fully responsive website that allows users to track REAL flights from anywhere. Whether you are expecting a guest, or flying yourself, you and get 24/7 flight status. Connected to multiple 3rd party APIs to fetch airport and airline data",
-  Github: "https://github.com/Dillona25/flight-checker",
-  site: "https://flightchecker.netlify.app/",
-  stack1: "HTML",
-  stack2: "Tailwind",
-  stack3: "JavaScript",
+    "Its simple. What to wear is a project that takes a users loaction and the weather in the specified location and then suggests clothes for the user to wear. The user can add and delete clothes in their closet. The project was made using React.js and CSS. I created and programmed an entire back-end and server using node.js, express.js and mongoDB to seamlessly take care of the users requests here on the front-end.",
+  Github: "https://github.com/JohnPlamoottil/se_project_express",
+  site: "https://wtwr-jjsprint15.chickenkiller.com/",
+  stack1: "HTML/CSS/Full Stack",
+  stack2: "React/Express/Node.JS",
+  stack3: "MongoDB/GoogleCloud",
+};
+
+export const FinalData = {
+  src: FinalProject.src,
+  alt: "Image of Samarpanam 2025",
+  title: "Sprint16: Final Project",
+  description:
+    "Samarpanam 2025 ft. Bharatanatyam Arangetram is a Full Stack project that used React Vite and CSS styling to showcase all six dancer's 10year dance journey. EmailJS was used to enable the RSVP functionality as well as sending messaging in the FAQ page. MongoDB stored all the guestbook messages that dancers recieved from viewers. GoogleCloud and Render deployed the code online. Cloudinary stored photos and videos to display in the Gallery page. A QR code was pasted on the brochure for users to access this website to view the Repertoire and Musician biodata. GoogleAPI is used in the Venue page for directions to the venue. Youtube links showcased a livestream of the event as well as emotional videos for the dancers. A devoted page for each dancer showcased their talents and achievements earned during their time. ",
+  Github: "https://github.com/JohnPlamoottil/Bharatanatyam-Project",
+  site: "https://arangetram2025.onrender.com/#/",
+  stack1: "HTML/CSS/Full Stack",
+  stack2: "React/Express/Node.JS",
+  stack3: "MongoDB/GoogleCloud",
 };
 
 export const testimonials = [
