@@ -45,14 +45,11 @@ export const ProjectCard = ({
       <div className="p-4 pb-5 bg-[#2b2b2b] rounded-2xl flex flex-col gap-4 shadow-[0_0_10px_rgba(255,255,255,0.3)]">
         <Reveal>
           <div className="w-full aspect-[16/9] bg-black rounded-2xl overflow-hidden flex items-center justify-center">
-            <Image
-              alt={alt}
-              src={src}
-              fill
-              className="object-cover rounded-2xl"
-              sizes="(max-width: 400px) 100vw, 400px"
-              priority={title === "Sixtieth Birthday"}
-            />
+                <img
+                  alt={alt}
+                  src={src}
+                  className="w-full h-full object-cover rounded-2xl"
+                />
           </div>
         </Reveal>
         <div className="font-semibold flex items-center">
