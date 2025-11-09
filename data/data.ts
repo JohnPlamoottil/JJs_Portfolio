@@ -37,7 +37,7 @@ export const SixtiethBirthdayData = {
 
 export const AroundTheUsData = {
   src: USA.src,
-  alt: "Image Of Around The USA",
+  alt: "Image of Around The USA",
   title: "Around The USA",
   description:
     "Around the MDW is a project that was crafted purely with JavaScript. With a high focus in OOP the user is greeted with a stunning aesthetic website. The website is a social media page that allows the user to make it their own! From editing the profile, adding a new profile photo, and adding or deleting photos in their feed.",
