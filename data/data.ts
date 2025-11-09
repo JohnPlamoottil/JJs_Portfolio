@@ -185,7 +185,7 @@ export const JulyCodeJamData = {
   description:
     "SightSee USA is a full-stack travel route optimization application built with React (frontend using Vite), Python (backend with Streamlit, Pandas, and Plotly for data science), and JavaScript. The app uses a nearest neighbor algorithm to calculate optimal travel routes between tourist destinations across the USA, processing geographic data with libraries like geolib and geopy for distance calculations and displaying results on interactive maps using MapLibre GL. The project combines data science techniques (data preprocessing, normalization, and filtering in Python) with modern frontend development (React hooks, context API, and component-based architecture) to create an interactive vacation planning tool.",
   Github: "https://github.com/JohnPlamoottil/sightsee-usa",
-  site: "code-jam-kohl.vercel.app",
+  site: "https://code-jam-kohl.vercel.app/",
   stack1: "React+Vite | Full Stack",
   stack2: "Python | Streamlit | Pandas | Plotly",
   stack3: "JavaScript | GeoLib | Geopy",
