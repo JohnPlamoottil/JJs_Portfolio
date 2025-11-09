@@ -1,4 +1,4 @@
-import AviNews from "../public/images/AviNews.png";
+import Birthday from "../public/images/birthday.png";
 import USA from "../public/images/USA.png";
 import Flight from "../public/images/Flight.png";
 
@@ -22,17 +22,17 @@ export const navItems = [
   { name: "Contact", link: "#contact", scrollPath: "contact", offset: -10 },
 ];
 
-export const AviNewsData = {
-  src: AviNews.src,
-  alt: "Image Of AeroTrack",
-  title: "AeroTrack",
+export const SixtiethBirthday = {
+  src: Birthday.src,
+  alt: "Johnnys 60th Birthday",
+  title: "60th Birthday",
   description:
-    "From concept to reality, AeroTrack is a full-stack website that allows users to read up on the most recent aviation related news and track flights! Created using TypeScript, Tailwind CSS, Express.js and MongoDB.",
-  Github: "https://github.com/Dillona25/AeroTrack-Frontend",
-  site: "https://www.aerotrack.twilightparadox.com/",
-  stack1: "TypeScript",
-  stack2: "React.js",
-  stack3: "Express.js",
+    "This project is a celebratory, interactive website for Johnny's 60th Birthday Bash, featuring photo and video galleries, accordions, confetti effects, background music, and a modal YouTube player. It was built using HTML, CSS, and JavaScript, with Git and GitHub for version control and Git LFS for handling large media files. The site is deployed using GitHub Pages, allowing easy public access and updates directly from the main branch.",
+  Github: "https://github.com/JohnPlamoottil/Johnny-s-60th-Birthday-Bash",
+  site: "https://johnplamoottil.github.io/Johnny-s-60th-Birthday-Bash/",
+  stack1: "HTML",
+  stack2: "CSS",
+  stack3: "Javascript",
 };
 
 export const AroundTheUsData = {
