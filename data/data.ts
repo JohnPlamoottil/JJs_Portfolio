@@ -1,3 +1,4 @@
+import IntroProject from "../public/images/IntroProject.png"
 import Birthday from "../public/images/birthday.jpeg";
 import USA from "../public/images/USA.png";
 import Flight from "../public/images/Flight.png";
@@ -21,6 +22,18 @@ export const navItems = [
   },
   { name: "Contact", link: "#contact", scrollPath: "contact", offset: -10 },
 ];
+
+export const IntroProjectData = {
+  src: IntroProject.src,
+  alt: "Sprint 0 Intro Project",
+  title: "Onboarding Project",
+  description:
+    "This project is a personal introduction website created to showcase information about the author, including family, biography, and career highlights. Built using HTML and CSS, it features a visually engaging layout with custom images and responsive design elements. The project demonstrates fundamental web development skills and serves as a creative portfolio piece.",
+  Github: "https://github.com/JohnPlamoottil/Introduction-Project-Feb2023",
+  stack1: "HTML",
+  stack2: "CSS",
+  stack3: "TypeScript",
+};
 
 export const SixtiethBirthdayData = {
   src: Birthday.src,
