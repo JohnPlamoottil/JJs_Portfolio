@@ -28,17 +28,27 @@ p {
 @media (max-width: 430px) {
   /* Floating navbar adjustments */
   .floating-nav-container {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    gap: 0.5rem !important;
-    max-width: 95vw !important;
+    padding: 0.75rem 0.5rem !important;
+    gap: 0.25rem !important;
+    max-width: 96vw !important;
     min-width: auto !important;
+  }
+
+  /* Override space-x-4 from Tailwind */
+  .floating-nav-container > * + * {
+    margin-left: 0.25rem !important;
   }
 
   .floating-nav-container a,
   .floating-nav-container > div {
-    font-size: 0.75rem !important;
-    gap: 0.25rem !important;
+    font-size: 0.7rem !important;
+    padding: 0.25rem !important;
+    white-space: nowrap;
+  }
+
+  .floating-nav-container a span.text-sm,
+  .floating-nav-container > div span.text-sm {
+    font-size: 0.7rem !important;
   }
 
   /* Project card link adjustments */
