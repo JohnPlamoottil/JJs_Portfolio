@@ -23,3 +23,33 @@ h3 {
 p {
   @apply text-base;
 }
+
+/* Media queries for iPhone 15 Pro (430px) and similar devices */
+@media (max-width: 430px) {
+  /* Floating navbar adjustments */
+  .floating-nav-container {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    gap: 0.5rem !important;
+    max-width: 95vw !important;
+    min-width: auto !important;
+  }
+
+  .floating-nav-container a,
+  .floating-nav-container > div {
+    font-size: 0.75rem !important;
+    gap: 0.25rem !important;
+  }
+
+  /* Project card link adjustments */
+  .project-links-container {
+    flex-shrink: 0;
+    min-width: fit-content;
+  }
+
+  .project-card-title {
+    font-size: 1rem !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

@@ -53,9 +53,9 @@ export const ProjectCard = ({
           </div>
         </Reveal>
         <div className="font-semibold flex items-center">
-          <h2 className="whitespace-nowrap text-xl">{title}</h2>
+          <h2 className="project-card-title whitespace-nowrap text-xl">{title}</h2>
           <span className="border-[#797979] mx-4 border-[1px] flex-1"></span>
-          <div className="flex gap-3 text-xl">
+          <div className="project-links-container flex gap-3 text-xl">
             <a href={Github} target="_blank">
               <FaGithub className="hover:cursor-pointer hover:scale-110 ease-in-out duration-75" />
             </a>
