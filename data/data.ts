@@ -18,6 +18,7 @@ export const navItems = [
   { name: "Projects", link: "#projects", scrollPath: "projects" },
   { name: "Code Jams", link: "#code jams", scrollPath: "code jams" },
   { name: "Externship", link: "#externship", scrollPath: "externship" },
+  { name: "Experience", link: "#experience", scrollPath: "experience" },
   {
     name: "Testimonials",
     link: "#mobileTest",
