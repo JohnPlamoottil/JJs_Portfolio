@@ -9,7 +9,7 @@ export const Background = ({
   handleConfirmModal: () => void;
 }) => {
   return (
-    <section className="relative bg-black-200">
+    <section className="relative bg-black-200" id="experience">
       <div className="max-w-[1350px] m-auto px-7">
         <div className="flex gap-4 items-center">
           <h1 className="text-left font-bold lg:text-6xl whitespace-nowrap">
