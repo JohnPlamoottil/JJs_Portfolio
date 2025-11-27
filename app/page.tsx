@@ -5,6 +5,7 @@ import { Contact } from "@/Components/Contact";
 import { Hero } from "@/Components/Hero";
 import { MessageModal } from "@/Components/MessageModal";
 import { MobileTestimonials } from "@/Components/MobileTestimonials";
+import { MobileExperience } from "@/Components/MobileExperience";
 import { Projects } from "@/Components/Projects";
 import ResumeConfirmModal from "@/Components/ResumeModal";
 import { Testimonials } from "@/Components/Testimonials";
@@ -35,7 +36,8 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
-        <Background handleConfirmModal={handleConfirmModal} />
+        <Background handleConfirmModal={handleConfirmModal} className="hidden min-[431px]:block" />
+        <MobileExperience handleConfirmModal={handleConfirmModal} className="block min-[431px]:hidden" />
         <Testimonials className="hidden md:block" />
         <MobileTestimonials className="md:hidden" />
         <Contact handleMessageModal={handleMessageModal} />

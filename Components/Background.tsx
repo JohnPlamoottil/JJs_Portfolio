@@ -5,11 +5,13 @@ import { Revalia } from "next/font/google";
 
 export const Background = ({
   handleConfirmModal,
+  className,
 }: {
   handleConfirmModal: () => void;
+  className?: string;
 }) => {
   return (
-    <section className="relative bg-black-200" id="experience">
+    <section className={`relative bg-black-200 ${className ?? ""}`} id="experience">
       <div className="max-w-[1350px] m-auto px-7">
         <div className="flex gap-4 items-center">
           <h1 className="text-left font-bold lg:text-6xl whitespace-nowrap">

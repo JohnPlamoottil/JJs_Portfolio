@@ -18,7 +18,18 @@ export const navItems = [
   { name: "Projects", link: "#projects", scrollPath: "projects" },
   { name: "Code Jams", link: "#code jams", scrollPath: "code jams" },
   { name: "Externship", link: "#externship", scrollPath: "externship" },
-  { name: "Experience", link: "#experience", scrollPath: "experience" },
+  {
+    name: "Experience",
+    link: "#mobileExperience",
+    scrollPath: "mobileExperience",
+    className: "max-[429px]:block hidden",
+  },
+  {
+    name: "Experience",
+    link: "#experience",
+    scrollPath: "experience",
+    className: "min-[430px]:block hidden",
+  },
   {
     name: "Testimonials",
     link: "#mobileTest",
@@ -217,10 +228,46 @@ export const BackEndData = {
 };
 
 
+export const experiences = [
+  {
+    id: 1,
+    jobTitle: "Software Developer - Web",
+    company: "Custom Website Design Projects",
+    location: "Remote",
+    startDate: "September 2019",
+    endDate: "Current",
+    description:
+      "Develop UX/UI components for customer-facing applications using HTML, CSS, JavaScript, React and PHP ensuring all code is semantic, accessible, responsive and aligned with best practices.",
+    skills: ["JavaScript", "React.js", "PHP", "REST APIs", "Postman"],
+  },
+  {
+    id: 2,
+    jobTitle: "Software Engineering Tutor",
+    company: "TripleTen Senior Student",
+    location: "Remote",
+    startDate: "September 2024",
+    endDate: "October 2025",
+    description:
+      "Mentor students in debugging complex issues in JavaScript, React.js, Node.js, Express.js, and Google Cloud ensuring comprehension of the process and underlying concepts. Deliver personalized 1:1 guidance, fostering confidence in technical skills and problem-solving. Empower students to overcome challenges, address imposter syndrome, and celebrate progress.",
+    skills: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB", "Postman"],
+  },
+  {
+    id: 3,
+    jobTitle: "Full Stack Engineer Extern",
+    company: "Partner Internal Pipeline | Cohort#3",
+    location: "Remote",
+    startDate: "July17, 2025",
+    endDate: "September 17, 2025",
+    description:
+      "Collaborate with a team of six engineers plus our mentor, leveraging Agile methodologies with Jira ticketing software and CI/CD pipelines to drive efficient development and seamless project delivery. to implement secure authentication, invitation logic, and project management features to create a functional and scalable system. These features enable users to log in safely, collaborate through project invitations, and manage projects efficiently with real data. Through teamwork and technical execution, we delivered the foundation of a platform ready to support real-world client needs.",
+    skills: ["JIRA", "TypeScript", "React.js", "Tailwind CSS", "GraphQL"],
+  },
+];
+
 export const testimonials = [
   {
     quote:
-      "I had the pleasure of working with Kanna (JJ) during his time at our software engineering bootcamp. He is incredibly persistent, hardworking, and genuinely curious about learning. He demonstrated resilience and a strong commitment. His dedication and willingness to ask questions have allowed him to develop significantly over the course of the program. I’m confident that his curiosity and determination will continue to serve him well in his future career as a software engineer.",
+      "I had the pleasure of working with Kanna (JJ) during his time at our software engineering bootcamp. He is incredibly persistent, hardworking, and genuinely curious about learning. He demonstrated resilience and a strong commitment. His dedication and willingness to ask questions have allowed him to develop significantly over the course of the program. I'm confident that his curiosity and determination will continue to serve him well in his future career as a software engineer.",
     name: "Kevin Loughead",
     title: "Senior SE | Curriculum Developer",
     image: "/images/Kevin L.jpeg",
