@@ -41,7 +41,7 @@ export const About = () => {
                 aligned with best practices and business goals
                 <br />
                 <br />
-                From a young age, I had always aspired to contribute to the healthcare field. After completing rigorous studies in physical therapy and nursing school, the COVID-19 pandemic shifted my focus back to my original passion for web development. This transition led me to earn an AWS Cloud Practitioner and Solutions Architect Associate certifications through the PerScholas AWS Re/Start program. Subsequently, I enrolled in Practicum/TripleTen software engineering program in Jan2023 and completed the software engineering program in October2025. 
+                From a young age, I had always aspired to help people and make a meaningful impact. After years of rigorous academic training in the medical field, the COVID-19 pandemic became a pivotal moment that redirected my path toward my original passion for technology and software development. I made a decisive transition into cloud computing and software engineering, earning my AWS Cloud Practitioner and Solutions Architect Associate certifications through the PerScholas AWS Re/Start program. Committed to mastering my craft, I enrolled in the Practicum/TripleTen software engineering program in January 2023 and completed it in October 2025, fully dedicating myself to programming and building a career as a full-time software engineer.
                 <br/> 
                 <br/> I am an eager and creative professional who enjoys tackling new challenges, building, and designing web projects for a broad audience to experience and enjoy.
                 <br />
