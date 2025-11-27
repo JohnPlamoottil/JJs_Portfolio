@@ -23,7 +23,7 @@ export const Projects = () => {
   };
 
   return (
-    <section className="relative flex flex-col gap-10" id="projects">
+    <section className="relative flex flex-col gap-10 pb-10" id="projects">
       <div className="max-w-[1350px] m-auto px-7">
         <div>
           <div className="flex gap-4 items-center">
@@ -104,22 +104,24 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="hidden sm:flex gap-4 mt-4 justify-center">
-            <button
-              onClick={() => scroll('left', scrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll left"
-            >
-              <FaChevronLeft />
-            </button>
-            <button
-              onClick={() => scroll('right', scrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll right"
-            >
-              <FaChevronRight />
-            </button>
-          </div>
+        </div>
+        <div className="flex gap-4 mt-4 mb-6 justify-center">
+          <button
+            onClick={() => scroll('left', scrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll left"
+          >
+            <FaChevronLeft />
+          </button>
+          <button
+            onClick={() => scroll('right', scrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll right"
+          >
+            <FaChevronRight />
+          </button>
+        </div>
+        <div>
           <div id="code jams">
             <div className="flex gap-4 items-center">
               <h1 className="text-left font-bold text-[40px] leading-[40px] md:text-5xl lg:text-6xl whitespace-nowrap flex-shrink-0">
@@ -158,23 +160,24 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="hidden sm:flex gap-4 mt-4 justify-center">
-            <button
-              onClick={() => scroll('left', codeJamsScrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll left"
-            >
-              <FaChevronLeft />
-            </button>
-            <button
-              onClick={() => scroll('right', codeJamsScrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll right"
-            >
-              <FaChevronRight />
-            </button>
-          </div>
-
+        </div>
+        <div className="flex gap-4 mt-4 mb-6 justify-center">
+          <button
+            onClick={() => scroll('left', codeJamsScrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll left"
+          >
+            <FaChevronLeft />
+          </button>
+          <button
+            onClick={() => scroll('right', codeJamsScrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll right"
+          >
+            <FaChevronRight />
+          </button>
+        </div>
+        <div>
           <div id="externship">
             <div className="flex gap-4 items-center">
               <h1 className="text-left font-bold text-[40px] leading-[40px] md:text-5xl lg:text-6xl whitespace-nowrap flex-shrink-0">
@@ -206,23 +209,22 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="hidden sm:flex gap-4 mt-4 justify-center">
-            <button
-              onClick={() => scroll('left', externshipScrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll left"
-            >
-              <FaChevronLeft />
-            </button>
-            <button
-              onClick={() => scroll('right', externshipScrollRef)}
-              className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
-              aria-label="Scroll right"
-            >
-              <FaChevronRight />
-            </button>
-          </div>
-
+        </div>
+        <div className="flex gap-4 mt-4 mb-6 justify-center">
+          <button
+            onClick={() => scroll('left', externshipScrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll left"
+          >
+            <FaChevronLeft />
+          </button>
+          <button
+            onClick={() => scroll('right', externshipScrollRef)}
+            className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
+            aria-label="Scroll right"
+          >
+            <FaChevronRight />
+          </button>
         </div>
 
         <a
