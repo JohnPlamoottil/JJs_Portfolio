@@ -14,16 +14,40 @@ export const Projects = () => {
               Projects<span className="text-purple">.</span>
             </h1>
           </div>
-          <div className="flex gap-8 md:gap-10 flex-wrap justify-center">
-            <ProjectCard {...IntroProjectData} />
-            <ProjectCard {...LibraryData} />
-            <ProjectCard {...SixtiethBirthdayData} />
-            <ProjectCard {...CoffeeShopData} />
-            <ProjectCard {...RealEstateWebsiteData} />
-            <ProjectCard {...RealtyFormData} />
-            <ProjectCard {...AroundTheUsData} />
-            <ProjectCard {...WTWRData} />
-            <ProjectCard {...FinalData} />
+          <div className="mt-6">
+            <div
+              role="list"
+              aria-label="Projects"
+              className="flex gap-6 overflow-x-auto py-4 px-1 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-700"
+            >
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...FinalData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...WTWRData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...AroundTheUsData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...RealtyFormData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...RealEstateWebsiteData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...CoffeeShopData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...SixtiethBirthdayData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...LibraryData} />
+              </div>
+              <div className="flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start">
+                <ProjectCard {...IntroProjectData} />
+              </div>
+            </div>
           </div>
           <div id="code jams">
             <div className="flex items-center">
