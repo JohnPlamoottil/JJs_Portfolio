@@ -27,10 +27,10 @@ export const Projects = () => {
       <div className="max-w-[1350px] m-auto px-7">
         <div>
           <div className="flex gap-4 items-center">
-            <span className="border-[#797979] border-[1px] w-full"></span>
-            <h1 className="text-left font-bold leading-[40px] sm:text-5xl md:text-6xl whitespace-nowrap flex-shrink-0">
+            <h1 className="text-left font-bold text-[40px] leading-[40px] md:text-5xl lg:text-6xl whitespace-nowrap flex-shrink-0">
               Projects<span className="text-purple">.</span>
             </h1>
+            <span className="border-[#797979] border-[1px] w-full"></span>
           </div>
           <div className="mt-6">
             <div
@@ -38,7 +38,6 @@ export const Projects = () => {
               role="list"
               aria-label="Projects"
               className="flex gap-6 overflow-x-auto py-4 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-700 justify-start sm:justify-start"
-              style={{ touchAction: 'pan-x pinch-zoom' }}
             >
               <div className="flex-shrink-0 w-full sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start snap-center sm:snap-start">
                 <Reveal>
@@ -105,7 +104,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-4 justify-center">
+          <div className="hidden sm:flex gap-4 mt-4 justify-center">
             <button
               onClick={() => scroll('left', scrollRef)}
               className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
@@ -123,10 +122,10 @@ export const Projects = () => {
           </div>
           <div id="code jams">
             <div className="flex gap-4 items-center">
-              <span className="border-[#797979] border-[1px] w-full"></span>
-              <h1 className="text-left font-bold leading-[40px] sm:text-5xl md:text-6xl whitespace-nowrap flex-shrink-0">
+              <h1 className="text-left font-bold text-[40px] leading-[40px] md:text-5xl lg:text-6xl whitespace-nowrap flex-shrink-0">
                 Code Jams<span className="text-purple">.</span>
               </h1>
+              <span className="border-[#797979] border-[1px] w-full"></span>
             </div>
             <div className="mt-6">
               <div
@@ -134,7 +133,6 @@ export const Projects = () => {
                 role="list"
                 aria-label="Code Jams"
                 className="flex gap-6 overflow-x-auto py-4 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-700 justify-start sm:justify-start"
-                style={{ touchAction: 'pan-x pinch-zoom' }}
               >
                 <div className="flex-shrink-0 w-full sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start snap-center sm:snap-start">
                   <Reveal>
@@ -160,7 +158,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-4 justify-center">
+          <div className="hidden sm:flex gap-4 mt-4 justify-center">
             <button
               onClick={() => scroll('left', codeJamsScrollRef)}
               className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
@@ -179,10 +177,10 @@ export const Projects = () => {
 
           <div id="externship">
             <div className="flex gap-4 items-center">
-              <span className="border-[#797979] border-[1px] w-full"></span>
-              <h1 className="text-left font-bold leading-[40px] sm:text-5xl md:text-6xl whitespace-nowrap flex-shrink-0">
+              <h1 className="text-left font-bold text-[40px] leading-[40px] md:text-5xl lg:text-6xl whitespace-nowrap flex-shrink-0">
                 Externship <span className="text-purple">.</span>
               </h1>
+              <span className="border-[#797979] border-[1px] w-full"></span>
             </div>
             <div className="mt-6">
               <div
@@ -190,7 +188,6 @@ export const Projects = () => {
                 role="list"
                 aria-label="Externship"
                 className="flex gap-6 overflow-x-auto py-4 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-700 justify-start sm:justify-start"
-                style={{ touchAction: 'pan-x pinch-zoom' }}
               >
                 <div className="flex-shrink-0 w-full sm:w-[320px] md:w-[360px] lg:w-[420px] snap-start snap-center sm:snap-start">
                   <Reveal>
@@ -209,7 +206,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-4 justify-center">
+          <div className="hidden sm:flex gap-4 mt-4 justify-center">
             <button
               onClick={() => scroll('left', externshipScrollRef)}
               className="h-14 w-14 rounded-full bg-purple flex items-center justify-center text-3xl"
